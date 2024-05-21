@@ -1,4 +1,4 @@
-CentOS-Base.repo
+MongoDB User
 ===
 
 ### 일반 유저 생성
