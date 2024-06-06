@@ -41,7 +41,7 @@ user1 soft nofile 500000 -> 특정 유저(user1) 계정에 지정
 ```
 # ulimit -a
 ```
-
+****
 ## 2. ulimit 옵션
 ```
 -a : 모든 제한 사항을 보여줌.
@@ -56,7 +56,7 @@ user1 soft nofile 500000 -> 특정 유저(user1) 계정에 지정
 -S : soft 한도
 -H : hard 한도
 ```
-
+****
 ## 3. 주의 사항
 > 새로 설정한 limit 값(500000)이 system 전체 limit 보다 작아야함
 
@@ -64,7 +64,7 @@ user1 soft nofile 500000 -> 특정 유저(user1) 계정에 지정
 ```
 cat /proc/sys/fs/file-max
 ```
-
+****
 ## 4. 프로세스에 대한 limit 올리기
 > 프로세스 limit의 경우 변경한 뒤 재시작을 하면 되지만 실시간 서비스 환경에서 프로세스 재시작이 안되는 때가 있다고 가정하에 필요
 
