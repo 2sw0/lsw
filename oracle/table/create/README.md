@@ -1,4 +1,4 @@
-TABLE
+CREATE
 ======================
 ## 1. Create table
 
