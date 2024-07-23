@@ -45,4 +45,6 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 ### 1.3. yum 캐시 제거
 ```
 yum clean all
+
+d
 ```
