@@ -7,3 +7,8 @@ SELECT a.sid,  a.serial#,  a.status, a.process, a.username, a.osuser, b.sql_text
    AND a.paddr=c.addr
    AND a.status='ACTIVE';
 ```
+
+프로세스 강제 종료
+```sql
+ALTER SYSTEM KILL SESSION 'sid, serial#';
+```
